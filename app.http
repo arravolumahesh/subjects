@@ -1,0 +1,17 @@
+GET  http://localhost:3000/student/
+
+###
+POST http://localhost:3000/student/
+Content-Type: application/json
+
+{
+  "subjectId": 6,
+  "studentName": "raju",
+  "email": "raju@gmail.com"
+}
+
+###
+GET http://localhost:3000/student/3/
+
+###
+GET http://localhost:3000/subject/
